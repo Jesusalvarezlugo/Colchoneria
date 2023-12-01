@@ -34,5 +34,15 @@ namespace Colchoneria.Servicios
 
             return opcion;
         }
+
+        public long pedirId()
+        {
+            long idColchon;
+
+            Console.WriteLine("Introduzca el id del colchon que desee modificar");
+            idColchon = Int64.Parse(Console.ReadLine());
+
+            return idColchon;
+        }
     }
 }
