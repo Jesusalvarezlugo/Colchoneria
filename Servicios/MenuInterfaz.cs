@@ -8,5 +8,11 @@ namespace Colchoneria.Servicios
 {
     internal interface MenuInterfaz
     {
+        public int mostrarMenuYSeleccion();
+
+        public void mensajeBienvenida();
+
+        public long pedirId();
+
     }
 }
